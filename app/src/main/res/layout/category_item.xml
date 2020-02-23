@@ -4,23 +4,35 @@
     android:orientation="vertical"
     android:layout_width="wrap_content"
     android:layout_marginRight="5dp"
+    android:gravity="center"
     android:layout_height="wrap_content">
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:id="@+id/category_image"
-        app:civ_border_color="@color/Green"
-        app:civ_border_width="3dp"
         android:layout_gravity="center"
         android:src="@mipmap/ic_launcher"/>
-    <com.hassan.ta2mk.Presenter.Fonts.Comfortaa_Bold
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="22sp"
-        android:id="@+id/category_name"
+        android:layout_height="match_parent"
+        android:textAppearance="@style/ChipTextStyle_Selected"
+        android:text="Hello World"
+        android:textStyle="bold"
+        android:textSize="20sp"
         android:gravity="center"
-        android:layout_gravity="center"
-        android:textColor="@color/Green"
-        android:layout_marginTop="5dp"
         />
+
+
+<!--    <com.hassan.ta2mk.Presenter.Fonts.Comfortaa_Bold-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="22sp"-->
+<!--        android:id="@+id/category_name"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:textColor="@color/Green"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        />-->
 </LinearLayout>

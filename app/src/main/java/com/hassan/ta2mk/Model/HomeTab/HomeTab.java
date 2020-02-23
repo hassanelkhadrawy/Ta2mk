@@ -39,8 +39,12 @@ public class HomeTab implements HomeTabInterface.Model {
             @Override
             protected void populateViewHolder(CategoryAdapter categoryAdapter, CategoryModel categoryModel, int i) {
 
-                Picasso.with(context).load(categoryModel.getImage()).placeholder(R.drawable.ic_add_circle_outline_black_24dp).into(categoryAdapter.categoryImage);
-                categoryAdapter.categoryName.setText(categoryModel.getName());
+                Picasso.with(context).load(categoryModel.getImage()).placeholder(R.drawable.ic_perm_identity_black_24dp).into(categoryAdapter.categoryImage);
+                //categoryAdapter.categoryName.setText(categoryModel.getName());
+                categoryAdapter.chip.setText(categoryModel.getName());
+
+                categoryAdapter.chip.setChipIconResource(R.drawable.child);
+
 
 
 
