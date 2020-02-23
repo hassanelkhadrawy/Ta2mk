@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Ta2mk</string>
+    <string name="home">Home</string>
+    <string name="All_Categories">All Categories</string>
+    <string name="Women">Women</string>
+    <string name="Men">Men</string>
+    <string name="Girls">Girls</string>
+    <string name="Shops">Shops</string>
+    <string name="Phone">Phone</string>
+    <string name="Address">Address</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Creataccount">Create account</string>
+    <string name="Rememberme">Remember Me</string>
+    <string name="ForgetPassword">Forget Password?</string>
+    <string name="Login">Login</string>
+    <string name="Name">Name</string>
+    <string name="Register">Register</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="Check_Internet">Check Internet</string>
+    <string name="Enter_Name">Enter Name</string>
+    <string name="Enter_Phone">Enter Phone</string>
+    <string name="Enter_Email">Enter Email</string>
+    <string name="Enter_Password">Enter Password</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="setting">Setting</string>
+    <string name="posts">Posts</string>
+    <string name="help">Help</string>
+    <string name="messages">Messages</string>
+    <string name="add_item">Add Item</string>
+    <string name="deleteitem">DeleteItem</string>
+    <string name="upload">UpLoad</string>
+    <string name="success">Success</string>
+    <string name="wait">Waiting...</string>
+    <string name="login">Please Wait,Login</string>
+    <string name="cancle">Cancle</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="add_description">Add Description</string>
+    <string name="faild">Failed</string>
+
+
+</resources>
+

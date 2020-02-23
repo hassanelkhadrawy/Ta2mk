@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.LoginActivity"
+    android:background="@drawable/back">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="133dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.hassan.ta2mk.Presenter.Fonts.Comfortaa_Bold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="@string/app_name"
+            android:textColor="@color/White"
+            android:textSize="45sp" />
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textColorHint="@color/White"
+            >
+
+            <com.hassan.ta2mk.Presenter.Fonts.Comfortaa_Regular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_perm_identity_black_24dp"
+                android:hint="@string/Email"
+                android:id="@+id/loginEmail"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/White"
+                android:text="hassan.com"
+                android:textColorHint="@color/White"
+                android:textSize="23sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:textColorHint="@color/White">
+
+            <com.hassan.ta2mk.Presenter.Fonts.Comfortaa_Regular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_lock_outline_black_24dp"
+                android:hint="@string/Password"
+                android:id="@+id/loginPassword"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/White"
+                android:text="jo"
+                android:textSize="23sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/Rememberme"
+                android:textColor="@color/White"
+                android:textSize="15sp"
+                />
+
+
+            <com.hassan.ta2mk.Presenter.Fonts.Comfortaa_Bold
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/ForgetPassword"
+                android:textColor="@color/White"
+                android:gravity="end"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <com.hassan.ta2mk.Presenter.Fonts.Comfortaa_Bold
+            android:layout_width="200dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/shop_item"
+            android:gravity="center"
+            android:text="@string/Login"
+            android:onClick="Login"
+            android:textColor="@color/White"
+            android:textSize="25sp" />
+
+        <com.hassan.ta2mk.Presenter.Fonts.Comfortaa_Bold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Creataccount"
+            android:onClick="CreatAccount"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/White"
+            android:gravity="center"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
